@@ -1,0 +1,27 @@
+header {
+	font-family: 'Oswald', sans-serif;
+	margin-bottom: 50px;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	color: red;
+	transition: 0.5s;
+}
+
+.top {
+	margin: 25px;
+}
+
+table.main {
+	width: 600px;
+	vertical-align: top;
+}
+
+table.text {
+	width: 100%;
+}
