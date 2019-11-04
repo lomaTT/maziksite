@@ -1,14 +1,17 @@
-header {
+body {
 	font-family: 'Oswald', sans-serif;
+}
+
+header {
 	margin-bottom: 50px;
 }
 
-a {
+a.top {
 	color: black;
 	text-decoration: none;
 }
 
-a:hover {
+a.top:hover {
 	color: red;
 	transition: 0.5s;
 }
@@ -17,11 +20,36 @@ a:hover {
 	margin: 25px;
 }
 
-table.main {
+table.pictures {						
 	width: 600px;
 	vertical-align: top;
+	border-spacing: 100px 0px;    
+	margin-bottom: 100px
 }
 
 table.text {
 	width: 100%;
+}
+
+td.price {
+	margin-left: 40px;
+}
+
+table.price {
+	width: 80%;
+	height: 130px;
+}
+
+li {
+	font-size: 20px;
+	margin-left: 30px;
+}
+
+h2.htext {
+	margin-bottom: 30px;
+}
+
+a.links {
+	color: rgb(196, 95, 147);
+	text-decoration: none;
 }
